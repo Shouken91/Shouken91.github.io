@@ -1,0 +1,106 @@
+
+
+#menutext{
+	background-color: #2997a6;
+	text-align: center;
+	padding: 80px 20px 80px 20px;
+	margin: 0;
+}
+nav{
+	background-color: #111;
+	overflow: hidden;
+
+}
+nav a{
+	color: grey;
+	padding: 14px 20px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menuleft{
+	float: left;
+}
+.menuright{
+	float: right;
+}
+
+nav a:hover{
+	background-color: #DDD;
+	color: #111;
+}
+
+#leftside{
+	flex: 30%;
+	background-color: #AAA;
+}
+#rightside{
+	flex: 70%;
+	padding: 10px 20px;
+}
+#flexcontainer{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#footer{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+table {
+	border-style: solid;
+}
+
+/* Styling the table */
+table {
+	border-collapse: collapse;
+	align-content: center;
+}
+
+table td, table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  text-overflow: hidden;
+  background-color: #04AA6D;
+  color: white;
+}
+
+@media(max-width: 800px){
+	#leftside{
+		flex: :100%;
+	}
+	#rightside{
+		flex: :100%;
+	}
+
+	#flex-container{
+		flex-wrap: wrap;
+	}
+}
+
+@media(max-width: 400px){
+	*{background-color: blue;}
+	
+}
+#leftside{
+		flex: :100%;
+	}
+	#rightside{
+		flex: :100%;
+	}
+	#flex-container{
+		flex-wrap: wrap;
+	}
